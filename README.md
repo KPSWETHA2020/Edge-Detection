@@ -37,7 +37,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load the image, Convert to grayscale and remove noise
-img=cv2.imread("img.jpg",0)
+img=cv2.imread("cap.jpg",0)
 gray=cv2.cvtColor(img,cv2.COLOR_GRAY2RGB)
 gray = cv2.GaussianBlur(gray,(3,3),0)
 
